@@ -3,7 +3,7 @@
 class desafio4_be {
 
     public function Resposta4($resposta) {
-        if ($resposta == "Livro") {
+        if ($resposta == "Livros") {
             echo "Você acertou. <a href='desafio5.php'> Prossiga!";
         } 
         if ($resposta == "Direita") {
