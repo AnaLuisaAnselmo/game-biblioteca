@@ -1,16 +1,16 @@
 <?php
-class Fase1{
-    public function Resposta1($resposta){
-        if($resposta == "Procurar_na_seção_de_livros_americanos"){
+class Desafio2_be{
+    public function Resposta2($resposta){
+        if($resposta == "americano"){
             echo "Você acertou. <a href='desafio3.php'>Prossiga!</a>";
         }
-        if($resposta == "Procurar_na_recepção"){
+        if($resposta == "recepcao"){
             echo "Você só encontrou a recepcionista, tente outra alternativa!";
         }
-        if($resposta == "Procurar_na_seção_de_livros_brasileiros"){
+        if($resposta == "brasileiro"){
         echo "Você só perdeu tempo, tente outra alternativa!";
         }
-         if($resposta == "Procurar_no_Banheiro"){
+         if($resposta == "banheiro"){
         echo "Você só encontrou um fedor tremendo, tente outra alternativa!";
         }
 }
