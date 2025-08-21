@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tutorial 1</title>
 </head>
 <body>
     <h1>TUTORIAL</h1>
@@ -18,13 +18,34 @@
 *Para você ir para proxima fase, basta escolher uma das opçoes a baixo.</p>
     </div>
 
-    <nav>
-     <input type = "radio" > (A)Opção 1
-     <input type = "radio" > (A)Opção 2
-     <input type = "radio" > (A)Opção 3
-     <input type = "radio" > (A)Opção 4
-           
    
-    </nav>
+        <form method="POST">
+     <input type = "radio" name = "Tutorial1" value="opcao_1" > (A)Opção 1
+     <input type = "radio" name = "Tutorial1" value="opcao_2" > (B)Opção 2
+     <input type = "radio" name = "Tutorial1" value="opcao_3" > (C)Opção 3
+     <input type = "radio" name = "Tutorial1" value="opcao_4" > (D)Opção 4
+      <input type="submit">
+   </form>
+
+     
+   
+  
+
 </body>
 </html>
+
+<?php
+
+require_once "tutorial_be.php";
+
+$geral = new tutorial_be();
+
+if($_SERVER['REQUEST_METHOD'] === 'POST'){
+
+$resposta = $_POST['Tutorial1'];
+
+  
+    $geral->Resposta($resposta);
+
+}
+
