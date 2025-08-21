@@ -23,11 +23,13 @@
 
 <?php
 require_once("desafio1-be.php");
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $Fase1 = new Fase1();
-
-    $resposta=$_POST['Fase1'];
-
-    $Fase1->Resposta1($resposta);
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['Fase1'])) {
+        $resposta = $_POST['Fase1'];
+        $Fase1 = new Fase1();
+        $Fase1->Resposta1(resposta: $resposta);
+    } else {
+        echo "Selecione uma alternativa.";
+    }
 }
 ?>

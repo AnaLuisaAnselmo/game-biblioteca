@@ -13,9 +13,6 @@ class Fase1{
         if($resposta == "Chale"){
             echo "Você não encontrou nada, e perdeu muito tempo. Tente outra alternativa!";
         }
-        if($resposta == ""){
-            echo "Selecione uma alternativa.";
-        }
 }
 }
 ?>
