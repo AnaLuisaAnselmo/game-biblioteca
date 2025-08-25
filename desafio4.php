@@ -7,7 +7,7 @@
     <title>Fase 4</title>
 </head>
 <body>
-    <div>
+    <div class="container">
     <h1>FASE 4</h1>
 
     <div class="caixa-pergunta">
