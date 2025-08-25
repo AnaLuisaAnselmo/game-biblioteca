@@ -13,7 +13,7 @@
     <div class="caixa-pergunta">
         <p class="pergunta">Muito bem, agora com o caminho iluminado, por onde você irá para tentar encontrar o livro do seu avô?</p>
 
-    <form method="POST" class="form-fase">
+    <form method="POST">
         <label class="opcao">
      <input type = "radio" name = "Fase4" value="Direita"> (A) Ir pela direita
      </label>
