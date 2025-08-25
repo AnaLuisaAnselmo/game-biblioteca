@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Final</title>
+
+    <?php
+     session_start();
+    ?>
+
 </head>
 <link rel="stylesheet" href="fase5.css">
 <body>
+
 
 <p> Enquanto você estava andando, você acaba encontrando um papel com vários símbolos.</p> 
 <img src='img/alfabeto.png' alt="Imagem do alfabeto"><br>
@@ -29,7 +35,6 @@
                 $Fase5 = new Fase5();
                 $resposta = $_POST['Fase5'];
                 $Fase5->Resposta5($resposta);
-            }else{
-                echo'Digite alguma coisa.';
             }
+            
             ?>

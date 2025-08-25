@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'GLITCH' ;
+    src: url('font/STAR7.ttf');
+}
+@font-face {
+    font-family: 'Star' ;
+    src: url('font/Starz.ttf');
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    
+.credits {
+      position: absolute;
+      bottom: -10%;
+      width: 100%;
+      animation: scrollCredits 60s linear forwards;
+    }
+
+    
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+   
+
+    @keyframes scrollCredits {
+      from{
+        bottom: -95%;
+      }
+      to{
+        bottom: 100%;
+      }
+    }
+    
+    .section-title {
+    font-size: 1.4em; /* Aumenta um pouco o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-transform: uppercase; /* Converte o texto para maiúsculas */
+    margin-bottom: 5px; /* Adiciona um pequeno espaço abaixo do título */
+    letter-spacing: 2px; /* Adiciona um pequeno espaçamento entre as letras */
+    color: #ffd700; /* Dourado para um toque de destaque, você pode usar a cor que preferir */
+}
+
+.titulocredito{
+    color: #d1b308;
+    font-size: 3.5em;
+
+}
+
+.glitch {
+    font-family: 'GLITCH';
+    font-size: 5em;
+
+    background: linear-gradient(270deg, #ff002b, #fa003e, #fc016afb);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: degradeAnim 3s ease infinite;
+}
+
+@keyframes degradeAnim {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.star{
+    font-family: 'Star';
+    color: grey;
+}
