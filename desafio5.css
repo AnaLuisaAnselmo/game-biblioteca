@@ -46,6 +46,15 @@ body {
     line-height: 1.6;
 }
 
+/* Título */
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #2a215d;
+}
+
 /* Caixa principal */
 .container {
     max-width: 800px;
