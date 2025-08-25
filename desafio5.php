@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Final</title>
     <link rel="stylesheet" href="desafio5.css">
+
+    <?php
+     session_start();
+    ?>
+
 </head>
 <body>
     <div class="container">

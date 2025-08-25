@@ -6,10 +6,21 @@
     <title>Fase 1</title>
     <link rel="stylesheet" href="desafio1.css">
 </head>
-<body>
+<?php
+session_start();
+if (!isset($_SESSION['pontos'])) {
+    $_SESSION['pontos'] = 0;
+}
 
+?>
+
+
+<body>
+<?php
+echo "pontuação: " . $_SESSION['pontos'];
+?>
     <div class="container">
-        <h1>FASE 1</h1>
+        <h1>FASE 1</h1> 
 
         <p class="introducao">
             Você sempre lembrava das tardes passadas com seu avô naquela biblioteca, enquanto ele ajeitava o velho relógio de bolso e dizia frases que soavam sem sentido; às vezes ria ao se esconder em lugares improváveis, como quando ficou horas debaixo da cerejeira, certo de que segredos precisavam estar bem guardados; agora, diante da biblioteca abandonada que lhe pertenceu, você sabe que precisa enfrentar uma série de desafios para recuperar o livro que guardava as lembranças mais belas dele.
@@ -18,6 +29,8 @@
         <div class="caixa-pergunta">
             <p class="pergunta">
                 A biblioteca está trancada, e você precisará da chave para entrar. 
+
+
                 Verifique os lugares onde ela pode estar escondida.
             </p><br>
             
@@ -48,9 +61,41 @@
                 $resposta = $_POST['Fase1'];
                 $Fase1->Resposta1($resposta);
             }
+            
             ?>
         </div>
     </div>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
