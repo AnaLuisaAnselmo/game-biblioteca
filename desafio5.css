@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Fairy';
+    src: url('font/FairyCode-Regular.otf');
+}
+.texto{
+  font-family: 'Fairy';
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo */
+body {
+    background: url(img-gifs/fase5.7.png);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: #333;
+}
+
+
+
+.caixa-pergunta {
+    background: rgba(40, 90, 140, 0.648);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.pergunta {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+/* Texto introdutório */
+.introducao {
+    background:rgba(29, 86, 142, 0.885);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    line-height: 1.6;
+    color: white;
+}
+
+/* Título */
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+/* Caixa principal */
+.container {
+    max-width: 800px;
+    width: 90%;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Texto */
+.container p {
+    
+    line-height: 1.5;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* Formulário */
+form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 12px;
+    border: 1px solid #aaa;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.form-fase{
+    color: white;
+}
+
+/* Botão */
+.btn {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3f5573;
+}
+
+/* Hover do botão */
+form input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+
+.btn:hover {
+    background: #3f5573;
+}
+
+/* Resposta */
+.resposta {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.resposta.sucesso {
+    color: #2ecc71;
+}
+
+.resposta.erro {
+    color: #e74c3c;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+

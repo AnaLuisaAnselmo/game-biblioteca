@@ -6,10 +6,19 @@
     <title>Fase 1</title>
     <link rel="stylesheet" href="desafio1.css">
 </head>
+<?php
+session_start();
+if (!isset($_SESSION['pontos'])) {
+    $_SESSION['pontos'] = 0;
+}
+
+?>
+
+
 <body>
 
     <div class="container">
-        <h1>FASE 1</h1>
+        <h1>FASE 1</h1> 
 
         <p class="introducao">
             Você sempre lembrava das tardes passadas com seu avô naquela biblioteca, enquanto ele ajeitava o velho relógio de bolso e dizia frases que soavam sem sentido; às vezes ria ao se esconder em lugares improváveis, como quando ficou horas debaixo da cerejeira, certo de que segredos precisavam estar bem guardados; agora, diante da biblioteca abandonada que lhe pertenceu, você sabe que precisa enfrentar uma série de desafios para recuperar o livro que guardava as lembranças mais belas dele.
@@ -18,22 +27,24 @@
         <div class="caixa-pergunta">
             <p class="pergunta">
                 A biblioteca está trancada, e você precisará da chave para entrar. 
+
+
                 Verifique os lugares onde ela pode estar escondida.
-            </p>
-            <small>*Para você ir para a próxima fase, basta escolher uma das opções abaixo.</small>
+            </p><br>
+            
 
             <form method="POST" class="form-fase">
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Embaixo_do_tapete"> (A) Embaixo do tapete
+                    <input type="radio" name="Fase1" value="Embaixo_do_tapete" required> (A) Embaixo do tapete
                 </label>
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Cerejeira_no_quintal"> (B) Cerejeira no quintal
+                    <input type="radio" name="Fase1" value="Cerejeira_no_quintal" required> (B) Cerejeira no quintal
                 </label>
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Nos_fundos"> (C) Nos fundos
+                    <input type="radio" name="Fase1" value="Nos_fundos" required> (C) Nos fundos
                 </label>
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Chale"> (D) Chalé ao lado
+                    <input type="radio" name="Fase1" value="Chale" required> (D) Chalé ao lado
                 </label>
 
                 <button type="submit" class="btn">Verificar</button>
@@ -48,9 +59,41 @@
                 $resposta = $_POST['Fase1'];
                 $Fase1->Resposta1($resposta);
             }
+            
             ?>
         </div>
     </div>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

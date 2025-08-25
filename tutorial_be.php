@@ -2,7 +2,7 @@
 class tutorial_be {
     public function Resposta($resposta){
         if($resposta== "opcao_4"){
-            echo "Você acertou. <a href='tutorial2.php'>Prossiga!</a>";
+            header('Location: tutorial2.php');
         }
         if($resposta== "opcao_1"){
             echo "Você errou, tente novamente.";

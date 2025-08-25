@@ -22,17 +22,30 @@
   <div>
     <p>
       A biblioteca está trancada, e você precisará da chave para entrar. Verifique os lugares onde ela pode estar escondida.<br><br>
-      *Para você ir para próxima fase, basta escolher uma das opções abaixo.
     </p>
+    <small>*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
   </div>
 
    
         <form method="POST">
-     <input type = "radio" name = "Tutorial1" value="opcao_1" > (A)Opção 1
-     <input type = "radio" name = "Tutorial1" value="opcao_2" > (B)Opção 2
-     <input type = "radio" name = "Tutorial1" value="opcao_3" > (C)Opção 3
-     <input type = "radio" name = "Tutorial1" value="opcao_4" > (D)Opção 4
-      <input type="submit">
+
+          <label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_1" required> (A)Opção 1
+    </label>
+
+    <label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_2" required> (B)Opção 2
+    </label>
+
+<label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_3" required> (C)Opção 3
+    </label>
+
+    <label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_4" required> (D)Opção 4
+    </label>
+    
+      <input type="submit" value="Verificar">
    </form>
 
      
@@ -49,6 +62,8 @@ require_once "tutorial_be.php";
 $geral = new tutorial_be();
 
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
+
+  
 
 $resposta = $_POST['Tutorial1'];
 

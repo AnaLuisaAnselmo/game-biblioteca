@@ -8,7 +8,9 @@
 
 /* Fundo */
 body {
-    background-color: #f6f8fa;
+    background: url(img-gifs/img-fase1.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -27,22 +29,23 @@ body {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
-    color: #2d3e50;
+    color: #ffffff;
 }
 
 /* Texto introdutório */
 .introducao {
-    background: #fff;
+    background: rgba(40, 90, 140, 0.885);
     padding: 1.5rem;
     border-radius: 12px;
     margin-bottom: 2rem;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     line-height: 1.6;
+    color: white;
 }
 
 /* Caixa da pergunta */
 .caixa-pergunta {
-    background: #f0f4f8;
+    background:rgba(40, 90, 140, 0.885);
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -51,7 +54,7 @@ body {
 .pergunta {
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #2d3e50;
+    color: #ffffff;
 }
 
 small {
@@ -104,6 +107,7 @@ small {
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
+    color: white;
 }
 
 .resposta.sucesso {

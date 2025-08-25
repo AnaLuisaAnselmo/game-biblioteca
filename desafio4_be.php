@@ -4,15 +4,19 @@ class desafio4_be {
 
     public function Resposta4($resposta) {
         if ($resposta == "Livros") {
-            echo "Você acertou. <a href='desafio5.php'> Prossiga!";
+            $_SESSION['pontos']+= 5;
+            header("Location: desafio5.php");
         } 
         if ($resposta == "Direita") {
+            $_SESSION['pontos']-= 2;
             echo "Você foi pela direção errada, tente outra!";
 }
         if ($resposta == "Fora") {
+            $_SESSION['pontos']-= 2;
             echo "Você foi pela direção errada, tente outra!";
 }
         if ($resposta == "Esquerda") {
+            $_SESSION['pontos']-= 2;
             echo "Você foi pela direção errada, tente outra!";
 }
 

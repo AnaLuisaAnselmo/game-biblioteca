@@ -1,0 +1,118 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo */
+body {
+     background: url(img-gifs/img-fase2.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Título */
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+/* Texto introdutório */
+.introducao {
+    background: rgba(40, 90, 140, 0.885);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    line-height: 1.6;
+}
+
+/* Caixa da pergunta */
+.caixa-pergunta {
+    background: rgba(40, 90, 140, 0.885);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.pergunta {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+small {
+    display: block;
+    margin-bottom: 1rem;
+    color: #6c7a89;
+}
+
+/* Opções */
+.opcao {
+    display: block;
+    background: #fff;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #dce3ea;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.opcao:hover {
+    background: #eef2f6;
+}
+
+.opcao input {
+    margin-right: 8px;
+}
+
+/* Botão */
+.btn {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3f5573;
+}
+
+/* Resposta */
+.resposta {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.resposta.sucesso {
+    color: #2ecc71;
+}
+
+.resposta.erro {
+    color: #e74c3c;
+}
