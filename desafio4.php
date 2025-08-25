@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="desafio4.css">
     <title>Fase 4</title>
-</head> required
+</head> 
 <?php
 session_start();
 ?>
