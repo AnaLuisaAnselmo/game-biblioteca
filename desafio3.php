@@ -3,36 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="desafio3.css">
     <title>Fase 3</title>
 </head>
 <body>
+    <div class="container">
     <h1>FASE 3</h1>
 
-    <div><p><h2>Muito bem você encontrou as velas, agora precisa dos fósforos. Aonde você vai procurar agora?</h2></p></div>
+    <div class="caixa-pergunta">
+        <p class="pergunta">Muito bem você encontrou as velas, agora precisa dos fósforos. Aonde você vai procurar agora?</p>
+    <small>*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
 
-     <form method="POST">
-     <input type = "radio" name = "Fase3" value="Secao_livros_americanos" > (A)Procurar na seção de livros americanos.
-     <input type = "radio" name = "Fase3" value="Recepcao"> (B)Procurar na recepção.
+     <form method="POST" class="form-fase">
+        <label class="opcao">
+     <input type = "radio" name = "Fase3" value="Secao_livros_americanos" > (A) Procurar na seção de livros americanos.
+        </label>
+     <label class="opcao">
+     <input type = "radio" name = "Fase3" value="Recepcao"> (B) Procurar na recepção.
+        </label>
+    <label class="opcao">
      <input type = "radio" name = "Fase3" value="Secao_livros_brasileiros"> (C) Procurar na seção de livros brasileiros.
-     <input type = "radio" name = "Fase3" value="Banheiro"> (D) Procurar no Banheiro.
-     <input type="submit">
+        </label>
+     <label class="opcao">
+     <input type = "radio" name = "Fase3" value="Banheiro"> (D) Procurar no Banheiro.   
+        </label>
+      <button type="submit" class="btn">Verificar</button>
        
        
     </form>
-</body>
-</html>
+</div>
+<div class="resposta">
 
 <?php
 
 require_once "desafio3_be.php";
-
 $geral = new desafio3_be();
-
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
-
 $resposta = $_POST['Fase3'];
+$geral->Resposta3($resposta);
+}?>
 
-  
-    $geral->Resposta3($resposta);
-
-}
+</div>
+</div>
+</body>
+</html>
