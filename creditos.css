@@ -44,7 +44,7 @@
 
     @keyframes scrollCredits {
       from{
-        bottom: -88%;
+        bottom: -110%;
       }
       to{
         bottom: 100%;
