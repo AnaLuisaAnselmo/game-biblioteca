@@ -32,8 +32,8 @@ echo "pontuação: " . $_SESSION['pontos'];
 
 
                 Verifique os lugares onde ela pode estar escondida.
-            </p>
-            <small>*Para você ir para a próxima fase, basta escolher uma das opções abaixo.</small>
+            </p><br>
+            
 
             <form method="POST" class="form-fase">
                 <label class="opcao">

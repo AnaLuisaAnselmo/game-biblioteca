@@ -8,7 +8,7 @@
 
 /* Fundo */
 body {
-    background: url(img-gifs/img-fase1.jpg);
+    background: url(img-gifs/img-fase4.jpg);
     background-repeat:no-repeat ;
     background-size: cover;
     display: flex;
@@ -34,18 +34,17 @@ body {
 
 /* Texto introdutório */
 .introducao {
-    background: rgba(40, 90, 140, 0.885);
+    background: #fff;
     padding: 1.5rem;
     border-radius: 12px;
     margin-bottom: 2rem;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     line-height: 1.6;
-    color: white;
 }
 
 /* Caixa da pergunta */
 .caixa-pergunta {
-    background:rgba(40, 90, 140, 0.885);
+    background: rgba(40, 90, 140, 0.885);
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -57,11 +56,6 @@ body {
     color: #ffffff;
 }
 
-small {
-    display: block;
-    margin-bottom: 1rem;
-    color: #6c7a89;
-}
 
 /* Opções */
 .opcao {
