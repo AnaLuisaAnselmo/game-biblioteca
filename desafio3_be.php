@@ -10,7 +10,7 @@ class Desafio3_be{
         if($resposta== "Secao_livros_brasileiros"){
             echo "Você errou, tente novamente.";
         }
-        if($resposta== "Secao_livros_brasileiros"){
+        if($resposta== "Secao_livros_americanos"){
             echo "infelizmente você pegou o caminho errado";
         }
     

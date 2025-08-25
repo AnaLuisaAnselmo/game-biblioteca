@@ -11,8 +11,7 @@
     <h1>FASE 3</h1>
 
     <div class="caixa-pergunta">
-        <p class="pergunta">Muito bem você encontrou as velas, agora precisa dos fósforos. Aonde você vai procurar agora?</p>
-    <small>*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
+        <p class="pergunta">Muito bem você encontrou as velas, agora precisa dos fósforos. Aonde você vai procurar agora?</p><br>
 
      <form method="POST" class="form-fase">
         <label class="opcao">
