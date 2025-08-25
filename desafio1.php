@@ -19,7 +19,7 @@
             <p class="pergunta">
                 A biblioteca está trancada, e você precisará da chave para entrar. 
                 Verifique os lugares onde ela pode estar escondida.
-            </p>
+            </p><br>
             
 
             <form method="POST" class="form-fase">

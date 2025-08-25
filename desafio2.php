@@ -14,8 +14,7 @@
 
     <div class="caixa-pergunta">
       <p class="pergunta">
-        Após entrar na biblioteca abandonada, você percebe que não enxerga nada, você terá que procurar por velas e fósforos. Aonde você vai procurar?</p>
-        <small>*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
+        Após entrar na biblioteca abandonada, você percebe que não enxerga nada, você terá que procurar por velas e fósforos. Aonde você vai procurar?</p><br>
 
   <form method="POST" class="form-fase">
     <label class="opcao">

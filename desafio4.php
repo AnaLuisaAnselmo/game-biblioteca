@@ -11,7 +11,7 @@
     <h1>FASE 4</h1>
 
     <div class="caixa-pergunta">
-        <p class="pergunta">Muito bem, agora com o caminho iluminado, por onde você irá para tentar encontrar o livro do seu avô?</p>
+        <p class="pergunta">Muito bem, agora com o caminho iluminado, por onde você irá para tentar encontrar o livro do seu avô?</p><br>
 
     <form method="POST">
         <label class="opcao">
