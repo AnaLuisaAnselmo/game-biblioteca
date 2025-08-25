@@ -118,3 +118,64 @@ small {
 .resposta.erro {
     color: #e74c3c;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .container h1 {
+        font-size: 1.6rem;
+    }
+
+    .introducao, 
+    .caixa-pergunta {
+        padding: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .opcao {
+        font-size: 0.9rem;
+        padding: 0.7rem 0.9rem;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container h1 {
+        font-size: 1.3rem;
+    }
+
+    .introducao, 
+    .caixa-pergunta {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .opcao {
+        font-size: 0.85rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .resposta {
+        font-size: 1rem;
+    }
+}

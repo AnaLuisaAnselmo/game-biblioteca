@@ -95,3 +95,70 @@
   justify-content: center;
   align-items: center;
 }
+
+/* --- Responsividade --- */
+
+/* Tablets e celulares grandes */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .section-title {
+    font-size: 1.2em;
+  }
+
+  .titulocredito {
+    font-size: 2.5em;
+  }
+
+  .glitch {
+    font-size: 3em;
+  }
+
+  .star {
+    font-size: 1.5em;
+  }
+
+  .logo {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .section-title {
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+
+  .titulocredito {
+    font-size: 2em;
+  }
+
+  .glitch {
+    font-size: 2.2em;
+  }
+
+  .star {
+    font-size: 1.2em;
+  }
+
+  .logo {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
