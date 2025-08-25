@@ -22,8 +22,8 @@
   <div>
     <p>
       A biblioteca está trancada, e você precisará da chave para entrar. Verifique os lugares onde ela pode estar escondida.<br><br>
-      *Para você ir para próxima fase, basta escolher uma das opções abaixo.
     </p>
+    <small>*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
   </div>
 
    
@@ -32,7 +32,7 @@
      <input type = "radio" name = "Tutorial1" value="opcao_2" > (B)Opção 2
      <input type = "radio" name = "Tutorial1" value="opcao_3" > (C)Opção 3
      <input type = "radio" name = "Tutorial1" value="opcao_4" > (D)Opção 4
-      <input type="submit">
+      <input type="submit" value="Verificar">
    </form>
 
      
