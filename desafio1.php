@@ -37,16 +37,16 @@ echo "pontuação: " . $_SESSION['pontos'];
 
             <form method="POST" class="form-fase">
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Embaixo_do_tapete"> (A) Embaixo do tapete
+                    <input type="radio" name="Fase1" value="Embaixo_do_tapete" required> (A) Embaixo do tapete
                 </label>
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Cerejeira_no_quintal"> (B) Cerejeira no quintal
+                    <input type="radio" name="Fase1" value="Cerejeira_no_quintal" required> (B) Cerejeira no quintal
                 </label>
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Nos_fundos"> (C) Nos fundos
+                    <input type="radio" name="Fase1" value="Nos_fundos" required> (C) Nos fundos
                 </label>
                 <label class="opcao">
-                    <input type="radio" name="Fase1" value="Chale"> (D) Chalé ao lado
+                    <input type="radio" name="Fase1" value="Chale" required> (D) Chalé ao lado
                 </label>
 
                 <button type="submit" class="btn">Verificar</button>

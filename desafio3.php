@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="desafio3.css">
     <title>Fase 3</title>
 </head>
+<?php
+session_start();
+?> 
 <body>
     <div class="container">
     <h1>FASE 3</h1>
@@ -15,16 +18,16 @@
 
      <form method="POST" class="form-fase">
         <label class="opcao">
-     <input type = "radio" name = "Fase3" value="Secao_livros_americanos" > (A) Procurar na seção de livros americanos.
+     <input type = "radio" name = "Fase3" value="Secao_livros_americanos" required>  (A) Procurar na seção de livros americanos.
         </label>
      <label class="opcao">
-     <input type = "radio" name = "Fase3" value="Recepcao"> (B) Procurar na recepção.
+     <input type = "radio" name = "Fase3" value="Recepcao" required> (B) Procurar na recepção.
         </label>
     <label class="opcao">
-     <input type = "radio" name = "Fase3" value="Secao_livros_brasileiros"> (C) Procurar na seção de livros brasileiros.
+     <input type = "radio" name = "Fase3" value="Secao_livros_brasileiros" required> (C) Procurar na seção de livros brasileiros.
         </label>
      <label class="opcao">
-     <input type = "radio" name = "Fase3" value="Banheiro"> (D) Procurar no Banheiro.   
+     <input type = "radio" name = "Fase3" value="Banheiro" required> (D) Procurar no Banheiro.   
         </label>
       <button type="submit" class="btn">Verificar</button>
        

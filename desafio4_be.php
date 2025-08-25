@@ -5,7 +5,7 @@ class desafio4_be {
     public function Resposta4($resposta) {
         if ($resposta == "Livros") {
             $_SESSION['pontos']+= 5;
-            echo "Você acertou. <a href='desafio5.php'> Prossiga!";
+            header("Location: desafio5.php");
         } 
         if ($resposta == "Direita") {
             $_SESSION['pontos']-= 2;

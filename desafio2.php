@@ -7,6 +7,9 @@
 
     <title>FASE 2</title>
 </head>
+<?php
+session_start();
+?>
 <body>
 
 <div class="container">
@@ -18,16 +21,16 @@
 
   <form method="POST" class="form-fase">
     <label class="opcao">
-     <input type = "radio" name = "Fase2" value="americano"> (A) Procurar na seção de livros americanos.
+     <input type = "radio" name = "Fase2" value="americano" required> (A) Procurar na seção de livros americanos.
      </label>
      <label class="opcao">
-     <input type = "radio" name = "Fase2" value="recepcao"> (B) Procurar na recepção.
+     <input type = "radio" name = "Fase2" value="recepcao" required> (B) Procurar na recepção.
       </label>
       <label class="opcao">
-     <input type = "radio" name = "Fase2" value="brasileiro"> (C) Procurar na seção de livros brasileiros.
+     <input type = "radio" name = "Fase2" value="brasileiro" required> (C) Procurar na seção de livros brasileiros.
       </label>
       <label class="opcao">
-     <input type = "radio" name = "Fase2" value="banheiro"> (D) Procurar no Banheiro.
+     <input type = "radio" name = "Fase2" value="banheiro" required> (D) Procurar no Banheiro.
       </label>
 
       <button type="submit" class="btn">Verificar</button>

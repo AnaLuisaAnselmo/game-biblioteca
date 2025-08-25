@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="desafio4.css">
     <title>Fase 4</title>
-</head>
+</head> required
+<?php
+session_start();
+?>
 <body>
     <div class="container">
     <h1>FASE 4</h1>
@@ -15,16 +18,16 @@
 
     <form method="POST">
         <label class="opcao">
-     <input type = "radio" name = "Fase4" value="Direita"> (A) Ir pela direita
+     <input type = "radio" name = "Fase4" value="Direita" required> (A) Ir pela direita
      </label>
      <label class="opcao">
-     <input type = "radio" name = "Fase4" value="Esquerda"> (B) Ir pela Esquerda.
+     <input type = "radio" name = "Fase4" value="Esquerda" required> (B) Ir pela Esquerda.
         </label>
      <label class="opcao">
-     <input type = "radio" name = "Fase4" value="Fora"> (C) Ir por fora.
+     <input type = "radio" name = "Fase4" value="Fora" required> (C) Ir por fora.
         </label>
      <label class="opcao">
-     <input type = "radio" name = "Fase4" value="Livros"> (D) Ir pela seção de livros brasileiros.
+     <input type = "radio" name = "Fase4" value="Livros" required> (D) Ir pela seção de livros brasileiros.
         </label>
      <button type="submit" class="btn">Verificar</button>
     </form>
