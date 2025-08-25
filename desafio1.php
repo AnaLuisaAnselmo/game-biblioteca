@@ -16,9 +16,7 @@ if (!isset($_SESSION['pontos'])) {
 
 
 <body>
-<?php
-echo "pontuação: " . $_SESSION['pontos'];
-?>
+
     <div class="container">
         <h1>FASE 1</h1> 
 
