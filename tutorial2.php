@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="tutorial2.css">
+    <link rel="stylesheet" href="style.css">
     <title>TUTORIAL</title>
 
 </head>
