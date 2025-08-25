@@ -28,10 +28,23 @@
 
    
         <form method="POST">
-     <input type = "radio" name = "Tutorial1" value="opcao_1" > (A)Opção 1
-     <input type = "radio" name = "Tutorial1" value="opcao_2" > (B)Opção 2
-     <input type = "radio" name = "Tutorial1" value="opcao_3" > (C)Opção 3
-     <input type = "radio" name = "Tutorial1" value="opcao_4" > (D)Opção 4
+
+          <label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_1" required> (A)Opção 1
+    </label>
+
+    <label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_2" required> (B)Opção 2
+    </label>
+
+<label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_3" required> (C)Opção 3
+    </label>
+
+    <label class="opcao">
+     <input type = "radio" name = "Tutorial1" value="opcao_4" required> (D)Opção 4
+    </label>
+    
       <input type="submit" value="Verificar">
    </form>
 
