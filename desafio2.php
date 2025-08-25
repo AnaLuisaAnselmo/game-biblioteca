@@ -17,7 +17,7 @@ session_start();
 
     <div class="caixa-pergunta">
       <p class="pergunta">
-        Após entrar na biblioteca abandonada, você percebe que não enxerga nada, você terá que procurar por velas e fósforos. Aonde você vai procurar?</p><br>
+        Parabéns você achou a chave, agora consegue entrar. Após entrar na biblioteca abandonada, você percebe que não enxerga nada, você terá que procurar por velas e fósforos. Aonde você vai procurar?</p><br>
 
   <form method="POST" class="form-fase">
     <label class="opcao">
