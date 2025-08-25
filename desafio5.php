@@ -11,10 +11,12 @@
         <h1>DESAFIO FINAL</h1>
         <div class="caixa-pergunta">
            
-        
+        <p class="introducao">Enquanto você estava andando, você acaba encontrando um papel com vários símbolos.</p>
+
         <img src='img/alfabeto.png' alt="Imagem do alfabeto"><br>
+
          <div class="introducao"> 
-        <p class="pergunta"> Enquanto você estava andando, você acaba encontrando um papel com vários símbolos. Após você andar por alguns minutos você acaba achando uma porta bem diferente, logo vem a sua cabeça que o livro pode estar lá, quando você se aproxima, acaba notando que tem os mesmos símbolos do papel na porta.</p> <br>
+        <p class="pergunta"> Após você andar por alguns minutos você acaba achando uma porta bem diferente, logo vem a sua cabeça que o livro pode estar lá, quando você se aproxima, acaba notando que tem os mesmos símbolos do papel na porta.</p> <br>
         </div>
         <h1 class="texto">Caelum</h1>
 
