@@ -20,7 +20,7 @@
                 A biblioteca está trancada, e você precisará da chave para entrar. 
                 Verifique os lugares onde ela pode estar escondida.
             </p>
-            <small>*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
+            
 
             <form method="POST" class="form-fase">
                 <label class="opcao">
