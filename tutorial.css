@@ -7,10 +7,16 @@
 
 body {
   font-family: "Libre Baskerville", "Inter", sans-serif;
-  background-color: #f5f7fa; /* cor de fundo suave */
+  background-color:  rgba(50, 80, 135, 0.795); /* cor de fundo suave */
   color: #1e1e2f; /* cor do texto principal */
   line-height: 1.6;
   padding: 2rem;
+}
+
+.texto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ===== Título principal ===== */
@@ -18,7 +24,7 @@ h1 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #ffffff;
   letter-spacing: 2px;
 }
 
@@ -29,19 +35,34 @@ div h3 {
   text-align: justify;
   margin-bottom: 2rem;
   padding: 1rem;
-  background: #ffffff;
+  background: #2a4e74;
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 50%;
+   transition: all 0.2s linear;
+}
+
+div h3:hover{
+  transform: scale(1.06);
+box-shadow: 2px 2px 10px #000000;
 }
 
 /* ===== Instrução ===== */
 div p {
   margin-bottom: 1.5rem;
   font-size: 1rem;
-  background: #eef2f7;
+  background: #2a4e74;
   padding: 1rem;
   border-radius: 10px;
-  color: #34495e;
+  color: white;
+  width: 50%;
+  transition: all 0.2s linear;
+}
+
+div p:hover{
+  transform: scale(1.06);
+box-shadow: 2px 2px 10px #000000;
 }
 
 /* ===== Opções (nav) ===== */
@@ -84,54 +105,69 @@ nav input[type="radio"]:checked + span {
   color: #4a90e2;
 }
 
-
-@media (max-width: 768px) {
-  body {
-    padding: 1.5rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  div h3 {
-    font-size: 1rem;
-    padding: 0.8rem;
-  }
-
-  div p {
-    font-size: 0.95rem;
-  }
-
-  nav {
-    max-width: 100%;
-  }
+.opcao {
+    display: block;
+    background: #fff;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #dce3ea;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 50%;
 }
 
-/* Telas pequenas (celulares, até 480px) */
-@media (max-width: 480px) {
-  body {
-    padding: 1rem;
-  }
+.opcao:hover {
+    background: #eef2f6;
+}
 
-  h1 {
-    font-size: 1.6rem;
-    letter-spacing: 1px;
-  }
+.opcao input {
+    margin-right: 8px;
+}
 
-  div h3 {
-    font-size: 0.95rem;
-    padding: 0.6rem;
-  }
+.opcoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  div p {
-    font-size: 0.9rem;
-    padding: 0.6rem;
-  }
+.instrucao{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
-  nav label {
-    font-size: 0.9rem;
-    padding: 0.6rem 0.8rem;
-  }
+.btn {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3f5573;
+}
+
+/* Resposta */
+.resposta {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.resposta.sucesso {
+    color: #2ecc71;
+}
+
+.resposta.erro {
+    color: #e74c3c;
 }

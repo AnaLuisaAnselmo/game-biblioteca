@@ -1,0 +1,62 @@
+body{
+      font-family: "Libre Baskerville", "Inter", sans-serif;
+  background-color:  rgba(50, 80, 135, 0.795); /* cor de fundo suave */
+  color: #1e1e2f; /* cor do texto principal */
+  line-height: 1.6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.titulo{
+    font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.texto{
+    color: white;
+    background-color: #2a4e74;
+    border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 50%;
+   font-weight: normal;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  transition: all 0.1s linear;
+}
+
+.texto:hover{
+     transform: scale(1.06);
+box-shadow: 2px 2px 10px #ffffff;
+}
+
+.botao {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    background: #2d3e50;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+    transition: all 0.1s linear;
+}
+
+.botao:hover{
+     transform: scale(1.06);
+box-shadow: 2px 2px 10px #ffffff;
+}
+
+.botao a{
+    color: white;
+}
+

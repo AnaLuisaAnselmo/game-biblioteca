@@ -9,7 +9,7 @@
 <body>
   <h1>TUTORIAL</h1>
 
-  <div>
+  <div class="texto">
     <h3>
       Você sempre lembrava das tardes passadas com seu avô naquela biblioteca, 
       enquanto ele ajeitava o velho relógio de bolso e dizia frases que soavam sem sentido; 
@@ -19,15 +19,15 @@
     </h3>
   </div>
 
-  <div>
+  <div class="texto">
     <p>
       A biblioteca está trancada, e você precisará da chave para entrar. Verifique os lugares onde ela pode estar escondida.<br><br>
     </p>
-    <small>*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
-  </div>
+  
+  </div>  <small class="instrucao">*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
 
    
-        <form method="POST">
+        <form method="POST" class="opcoes">
 
           <label class="opcao">
      <input type = "radio" name = "Tutorial1" value="opcao_1" required> (A)Opção 1
@@ -45,16 +45,12 @@
      <input type = "radio" name = "Tutorial1" value="opcao_4" required> (D)Opção 4
     </label>
     
-      <input type="submit" value="Verificar">
+      <input class="btn" type="submit" value="Verificar">
    </form>
 
      
    
-  
-
-</body>
-</html>
-
+<div class="resposta"> 
 <?php
 
 require_once "tutorial_be.php";
@@ -71,4 +67,11 @@ $resposta = $_POST['Tutorial1'];
     $geral->Resposta($resposta);
 
 }
+?></div> 
+
+
+</body>
+</html>
+
+
 

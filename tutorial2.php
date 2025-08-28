@@ -13,12 +13,12 @@
     <h1>TUTORIAL </h1>
 </div>
 
-<div>
+<div class="texto">
    <p> Parabéns você completou o tutorial, agora já sabe como jogar. Todas as fases serão desse estilo. DIVIRTA-SE !!<p>
 </div>
 
 
-    <button >
+    <button class="botao">
         <a href="desafio1.php">INICIAR JOGO</a>
     </button>
 </body>

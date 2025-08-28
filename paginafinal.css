@@ -78,7 +78,7 @@ box-shadow: 2px 2px 10px #000000;
   background-color: #2a4e74 ;
     border-radius: 15px;
     border:solid 15px #2a4e74 ;
-    transition: all 0.2s linear;
+    transition: all 0.3s linear;
 }
 
 .agradecimentos:hover{

@@ -141,6 +141,20 @@ form input[type="submit"]:hover {
     color: #fff;
 }
 
+.resposta a{
+    color: white;
+    background-color:#3f5573 ;
+    border: solid 4px #3f5573;
+    border-radius: 25px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.resposta a:hover{
+    box-shadow: 0px 0px 20px rgb(34, 34, 109);
+}
+
 .resposta.sucesso {
     color: #2ecc71;
 }
