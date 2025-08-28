@@ -170,75 +170,69 @@ form input[type="submit"]:hover {
     border-radius: 10px;
 }
 
-/* --- Responsividade --- */
+/* ========================= */
+/* Estilização para telas menores */
+/* ========================= */
 
-/* Tablets e celulares grandes */
 @media (max-width: 768px) {
     body {
         padding: 1rem;
         background-size: cover;
         background-position: center;
-        flex-direction: column;
-        align-items: center;
     }
 
     .container {
-        max-width: 100%;
-        width: 95%;
+        width: 100%;
         padding: 15px;
     }
 
     .container h1 {
         font-size: 1.6rem;
-        margin-bottom: 1rem;
     }
 
-    .introducao,
+    .introducao, 
     .caixa-pergunta {
         padding: 1rem;
         font-size: 0.95rem;
     }
 
-    form input[type="text"] {
-        width: 100%;
-        font-size: 0.95rem;
+    .container img {
+        max-width: 100%;
     }
 
-    .opcao {
+    form input[type="text"] {
+        width: 100%;
         font-size: 0.9rem;
-        padding: 0.7rem 0.9rem;
     }
 
     .btn {
         width: 100%;
-        font-size: 1rem;
         padding: 12px;
-    }
-
-    .container img {
-        max-width: 100%;
+        font-size: 1rem;
     }
 }
 
-/* Celulares pequenos */
 @media (max-width: 480px) {
     .container h1 {
         font-size: 1.3rem;
     }
 
-    .introducao,
+    .introducao, 
     .caixa-pergunta {
+        font-size: 0.85rem;
         padding: 0.8rem;
-        font-size: 0.9rem;
     }
 
-    form input[type="text"] {
-        font-size: 0.9rem;
-        padding: 8px;
+    .pergunta {
+        font-size: 1rem;
+    }
+
+    .opcao {
+        font-size: 0.85rem;
+        padding: 0.6rem 0.8rem;
     }
 
     .btn {
-        width: 100%;
         font-size: 0.9rem;
         padding: 10px;
         border-radius: 20px;
@@ -247,10 +241,4 @@ form input[type="submit"]:hover {
     .resposta {
         font-size: 1rem;
     }
-
-    .container img {
-        max-width: 100%;
-        margin-bottom: 15px;
-    }
 }
-
