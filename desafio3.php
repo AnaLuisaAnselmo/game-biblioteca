@@ -14,7 +14,7 @@ session_start();
     <h1>FASE 3</h1>
 
     <div class="caixa-pergunta">
-        <p class="pergunta">Muito bem você encontrou as velas, agora precisa dos fósforos. Aonde você vai procurar agora?</p><br>
+        <p class="pergunta">Muito bem, você encontrou as velas. A luz delas ilumina o caminho, revelando o quanto o tempo foi cruel com a biblioteca. As prateleiras estão tortas, os livros parecem ter sido jogados ao chão. Em meio à bagunça, você vê uma pequena poça de água perto de uma das paredes, como se um cano tivesse rompido. Onde você irá procurar os fósforos?</p><br>
 
      <form method="POST" class="form-fase">
         <label class="opcao">

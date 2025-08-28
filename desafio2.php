@@ -17,7 +17,7 @@ session_start();
 
     <div class="caixa-pergunta">
       <p class="pergunta">
-        Parabéns você achou a chave, agora consegue entrar. Após entrar na biblioteca abandonada, você percebe que não enxerga nada, você terá que procurar por velas e fósforos. Aonde você vai procurar?</p><br>
+        Parabéns, você encontrou a chave. Ao entrar na biblioteca, o cheiro de mofo toma conta do ar. Livros estão jogados no chão, e boa parte deles destruídos, exceto alguns, como os de culinária e estrangeiros. Mas, está muito escuro para enxergar algo. Onde você irá procurar iluminação?</p><br>
 
   <form method="POST" class="form-fase">
     <label class="opcao">
