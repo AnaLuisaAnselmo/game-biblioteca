@@ -14,7 +14,7 @@ session_start();
     <h1>FASE 4</h1>
 
     <div class="caixa-pergunta">
-        <p class="pergunta">Muito bem, agora com o caminho iluminado, por onde você irá para tentar encontrar o livro do seu avô?</p><br>
+        <p class="pergunta">Muito bem, agora que o caminho está iluminado, a biblioteca ganha forma. Em meio aos volumes empoeirados, você sente um calor familiar, como um abraço. Você se lembra do avô contando que, para ele, o lar era onde o coração se aquecia. De repente, a luz da vela parece tremer levemente. Em qual seção você irá procurar o livro?</p><br>
 
     <form method="POST">
         <label class="opcao">
