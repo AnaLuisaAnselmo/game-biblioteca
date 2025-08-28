@@ -27,7 +27,7 @@
 
         <form method="POST" class="form-fase">
             <label for="Fase5">Digite as letras que correspondem para cada símbolo:</label><br>
-            <input type="text" name="Fase5" class="opcao"> <br>
+            <input type="text" name="Fase5" class="opcao" required autocomplete="off"> <br>
             <button type="submit" class="btn">Verificar</button>
         </form>
     </div>
