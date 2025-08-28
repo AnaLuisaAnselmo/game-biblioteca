@@ -8,6 +8,7 @@
 
 /* Fundo */
 body {
+    min-height: 100vh;
     background: url(img-gifs/img-fase3.jpg);
     background-repeat:no-repeat ;
     background-size: cover;

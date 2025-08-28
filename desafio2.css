@@ -8,6 +8,7 @@
 
 /* Fundo */
 body {
+    min-height: 100vh;
      background: url(img-gifs/img-fase2.jpg);
     background-repeat:no-repeat ;
     background-size: cover;
@@ -183,3 +184,4 @@ small {
         font-size: 1rem;
     }
 }
+

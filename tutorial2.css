@@ -1,4 +1,5 @@
 body{
+  min-height: 100vh;
       font-family: "Libre Baskerville", "Inter", sans-serif;
   background-color:  rgba(50, 80, 135, 0.795); /* cor de fundo suave */
   color: #1e1e2f; /* cor do texto principal */

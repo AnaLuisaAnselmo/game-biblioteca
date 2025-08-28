@@ -14,6 +14,7 @@
 
 /* Fundo */
 body {
+    min-height: 100vh;
     background: url(img-gifs/fase5.7.png);
     background-repeat:no-repeat ;
     background-size:cover;

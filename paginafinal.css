@@ -24,6 +24,7 @@
 
 /* Fundo */
 body {
+    min-height: 100vh;
     background: rgba(50, 80, 135, 0.795);
     color: #f5f5f5;
     min-height: 100vh;
