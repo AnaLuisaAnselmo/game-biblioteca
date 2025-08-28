@@ -60,3 +60,76 @@ box-shadow: 2px 2px 10px #ffffff;
     color: white;
 }
 
+/* ===== Responsividade ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  div h3,
+  div p {
+    width: 90%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  nav {
+    max-width: 100%;
+    gap: 0.8rem;
+  }
+
+  nav label {
+    font-size: 0.95rem;
+    padding: 0.7rem 0.9rem;
+  }
+
+  .opcao {
+    width: 90%;
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  div h3,
+  div p {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+
+  nav label {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .opcao {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .resposta {
+    font-size: 1rem;
+  }
+}
