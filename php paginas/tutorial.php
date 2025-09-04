@@ -47,7 +47,7 @@
 <div class="resposta"> 
 <?php
 
-require_once "../php_be/tutorial_be.php";
+require_once "../php-be/tutorial_be.php";
 
 $geral = new tutorial_be();
 
