@@ -19,6 +19,10 @@ if (!isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] !== tru
       header('Location: desafio3.php');
     }
 
+    if (!isset($_SESSION['fase4_concluida']) || $_SESSION['fase4_concluida'] !== true) {
+    header("Location: desafio5.php");
+}
+
 ?>
 <body>
     <div class="container">
