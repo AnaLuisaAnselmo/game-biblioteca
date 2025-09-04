@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="desafio4.css">
+    <link rel="stylesheet" href="../css/desafio4.css">
     <title>Fase 4</title>
 </head> 
 <?php
@@ -19,9 +19,12 @@ if (!isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] !== tru
       header('Location: desafio3.php');
     }
 
-    if (!isset($_SESSION['fase4_concluida']) || $_SESSION['fase4_concluida'] !== true) {
+    if (isset($_SESSION['fase4_concluida']) && $_SESSION['fase4_concluida'] == true) {
     header("Location: desafio5.php");
+} else {
+    $_SESSION['fase4_concluida'] = false;
 }
+
 
 ?>
 <body>
@@ -52,7 +55,7 @@ if (!isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] !== tru
 
 <div class="resposta">
 <?php
-require_once "desafio4_be.php";
+require_once "../php-be/desafio4_be.php";
 
 $geral = new desafio4_be();
 

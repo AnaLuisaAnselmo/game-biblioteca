@@ -6,7 +6,7 @@ class Fase1{
         if($resposta == "Cerejeira_no_quintal"){
             $_SESSION['pontos']+=15;
             $_SESSION['fase1_concluida'] = true;
-            header("Location: desafio2.php");
+            header("Location: ../php paginas/desafio2.php");
         }
         if($resposta == "Embaixo_do_tapete"){
             $_SESSION['pontos']-= 10;

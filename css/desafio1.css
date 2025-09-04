@@ -9,7 +9,7 @@
 /* Fundo */
 body {
     min-height: 100vh;
-    background: url(img-gifs/img-fase1.jpg);
+    background: url(../img-gifs/img-fase1.jpg);
     background-repeat:no-repeat ;
     background-size: cover;
     display: flex;

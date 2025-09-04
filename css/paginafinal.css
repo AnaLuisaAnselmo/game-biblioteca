@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'GLITCH';
-    src: url(font/STAR7.ttf);
+    src: url(../font/STAR7.ttf);
 }
 
 @font-face {
     font-family: 'pontos';
-    src: url(font/Equalize.ttf);
+    src: url(../font/Equalize.ttf);
 }
 
 .glitch{

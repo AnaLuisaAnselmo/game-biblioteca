@@ -8,7 +8,7 @@
 </head>
 <body>
 <audio id="bg-music" loop muted>
-  <source src="musica/goddess.mp3" type="audio/mpeg">
+  <source src="../musica/goddess.mp3" type="audio/mpeg">
 </audio>
 
 <script>
@@ -59,7 +59,7 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <form method="POST">
-   <input type='submit' value='Jogar novamente'>
+   <input class="botao" type='submit' value="Jogar novamente" >
 </form>
 
     
@@ -72,7 +72,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $_SESSION['fase4_concluida'] = false;
     $_SESSION['fase5_concluida'] = false;
 
-    header("Location: index.html");
+    header("Location: ../index.html");
     exit();
 
     

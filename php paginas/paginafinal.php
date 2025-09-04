@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagína final</title>
 </head>
-<link rel="stylesheet" href="paginafinal.css">
+<link rel="stylesheet" href="../css/paginafinal.css">
 <body>
 
 <div class="php">
@@ -49,7 +49,7 @@ Do fundo do coração,
 <div class="glitch">GLITCH</div></p>
 
 <p>Obrigado por jogar!</p></div>
-<a href="creditos.php">Créditos</a>
+<a href="../php paginas/creditos.php">Créditos</a>
 
 
 <form method="POST">
@@ -68,7 +68,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $_SESSION['fase4_concluida'] = false;
     $_SESSION['fase5_concluida'] = false;
 
-    header("Location: index.html");
+    header("Location: ../index.html");
     exit();
 
     

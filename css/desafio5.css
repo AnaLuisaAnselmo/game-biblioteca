@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Fairy';
-    src: url('font/FairyCode-Regular.otf');
+    src: url('../font/FairyCode-Regular.otf');
 }
 .texto{
   font-family: 'Fairy';
@@ -15,7 +15,7 @@
 /* Fundo */
 body {
     min-height: 100vh;
-    background: url(img-gifs/fase5.7.png);
+    background: url(../img-gifs/fase5.7.png);
     background-repeat:no-repeat ;
     background-size:cover;
     display: flex;

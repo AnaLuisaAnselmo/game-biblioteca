@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Final</title>
-    <link rel="stylesheet" href="desafio5.css">
+    <link rel="stylesheet" href="../css/desafio5.css">
 
     <?php
      session_start();
@@ -22,9 +22,12 @@
       header('Location: desafio4.php');
     }
 
-    if (!isset($_SESSION['fase5_concluida']) || $_SESSION['fase5_concluida'] !== true) {
+    if (isset($_SESSION['fase5_concluida']) && $_SESSION['fase5_concluida'] == true) {
     header("Location: paginafinal.php");
+} else {
+    $_SESSION['fase5_concluida'] = false;
 }
+
     ?>
 
 </head>
@@ -35,7 +38,7 @@
            
         <p class="introducao">Enquanto você estava andando, você acaba encontrando um papel com vários símbolos.</p>
 
-        <img src='img/alfabeto.png' alt="Imagem do alfabeto"><br>
+        <img src='../img/alfabeto.png' alt="Imagem do alfabeto"><br>
 
          <div class="introducao"> 
         <p class="pergunta"> Após você andar por alguns minutos você acaba achando uma porta bem diferente, logo vem a sua cabeça que o livro pode estar lá, quando você se aproxima, acaba notando que tem os mesmos símbolos do papel na porta.</p> <br>
@@ -50,7 +53,7 @@
     </div>
 <div class="resposta">
         <?php
-            require_once("desafio5-be.php");
+            require_once("../php-be/desafio5-be.php");
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $Fase5 = new Fase5();
                 $resposta = $_POST['Fase5'];
