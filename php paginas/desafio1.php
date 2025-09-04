@@ -12,6 +12,10 @@ if (!isset($_SESSION['pontos'])) {
     $_SESSION['pontos'] = 0;
 }
 
+if (isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] == true) {
+    header("Location: desafio2.php");
+}
+
 ?>
 
 
