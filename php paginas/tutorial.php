@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tutorial</title>
-  <link rel="stylesheet" href="tutorial.css">
+  <link rel="stylesheet" href="../css/tutorial.css">
 </head>
 <body>
   <h1>TUTORIAL</h1>
@@ -47,7 +47,7 @@
 <div class="resposta"> 
 <?php
 
-require_once "tutorial_be.php";
+require_once "../php_be/tutorial_be.php";
 
 $geral = new tutorial_be();
 
