@@ -9,7 +9,7 @@
 /* Fundo */
 body {
     min-height: 100vh;
-    background: url(img-gifs/img-fase1.jpg);
+    background: url(img-gifs/img-fase4.jpg);
     background-repeat:no-repeat ;
     background-size: cover;
     display: flex;
@@ -35,18 +35,17 @@ body {
 
 /* Texto introdutório */
 .introducao {
-    background: rgba(40, 90, 140, 0.885);
+    background: #fff;
     padding: 1.5rem;
     border-radius: 12px;
     margin-bottom: 2rem;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     line-height: 1.6;
-    color: white;
 }
 
 /* Caixa da pergunta */
 .caixa-pergunta {
-    background:rgba(40, 90, 140, 0.885);
+    background: rgba(40, 90, 140, 0.885);
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -56,13 +55,9 @@ body {
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: #ffffff;
+    font-size: 1.2rem;
 }
 
-small {
-    display: block;
-    margin-bottom: 1rem;
-    color: #6c7a89;
-}
 
 /* Opções */
 .opcao {
@@ -119,12 +114,16 @@ small {
     color: #e74c3c;
 }
 
-/* Responsividade */
+/* --- Responsividade --- */
+
+/* Tablets e celulares grandes */
 @media (max-width: 768px) {
     body {
         padding: 1rem;
         background-size: cover;
         background-position: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .container {
@@ -133,6 +132,7 @@ small {
 
     .container h1 {
         font-size: 1.6rem;
+        margin-bottom: 1rem;
     }
 
     .introducao, 
@@ -153,6 +153,7 @@ small {
     }
 }
 
+/* Celulares pequenos */
 @media (max-width: 480px) {
     .container h1 {
         font-size: 1.3rem;
@@ -170,6 +171,7 @@ small {
     }
 
     .btn {
+        width: 100%;
         font-size: 0.9rem;
         padding: 10px;
         border-radius: 20px;

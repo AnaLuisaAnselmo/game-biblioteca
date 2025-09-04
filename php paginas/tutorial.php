@@ -11,22 +11,16 @@
 
   <div class="texto">
     <h3>
-      Você sempre lembrava das tardes passadas com seu avô naquela biblioteca, 
-      enquanto ele ajeitava o velho relógio de bolso e dizia frases que soavam sem sentido; 
-      às vezes ria ao se esconder em lugares improváveis, como quando ficou horas debaixo da cerejeira, 
-      certo de que segredos precisavam estar bem guardados; agora, diante da biblioteca abandonada que lhe pertenceu, 
-      você sabe que precisa enfrentar uma série de desafios para recuperar o livro que guardava as lembranças mais belas dele
+     O jogo funcionará dessa forma: escolha uma das opções e veja se você acertou.
     </h3>
   </div>
 
   <div class="texto">
     <p>
-      A biblioteca está trancada, e você precisará da chave para entrar. Verifique os lugares onde ela pode estar escondida.<br><br>
-    </p>
+    OBS: *Sua pontuação será baseada conforme você acertar as perguntas. Se você acertar de primeira, você ganhará um certo valor de pontos. Já se você errar, descontará um certo valor de pontos.</p>
   
   </div>  <small class="instrucao">*Para ir para a próxima fase, basta escolher uma das opções abaixo e verifica-la.</small>
 
-   
         <form method="POST" class="opcoes">
 
           <label class="opcao">
