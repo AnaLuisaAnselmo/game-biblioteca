@@ -37,6 +37,8 @@ echo "<h1 class='pontuacao'>Pontuação final: " . $_SESSION['pontos'] . "/50 </
 </div><br><br>
 
 <div class="texto">
+  <p>Parabéns! Você encontrou o livro do seu avô e, junto dele, recordações preciosas que permanecerão para sempre na memória.</p><br>
+
 <p>A aventura chegou ao fim, mas a nossa gratidão é só o começo.
 
 Queríamos que você soubesse que cada passo seu nessa jornada, cada escolha, cada desafio superado, foi mais do que apenas um jogo para nós. Foi a prova de que a nossa história, criada com tanto carinho, encontrou seu lugar nos seus pensamentos e na sua dedicação.
