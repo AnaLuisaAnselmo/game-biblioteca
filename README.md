@@ -3,11 +3,11 @@
 Um jogo interativo desenvolvido em PHP, HTML e CSS, onde o jogador assume o papel de um jovem que retorna à antiga biblioteca de seu avô em busca de um livro cheio de lembranças. Para chegar até ele, será preciso enfrentar desafios, puzzles e decifrar pistas espalhadas pelo cenário.
 <p>Antes de iniciar o jogo, é nescessário ver o tutorial de como jogar. O jogo é simples somente perguntas e respostas, onde usa pontuação é marcada conforme você acerta as perguntas.</p>
 
-<p> O QUE OS INTEGRANTES FIZERAM: 
-João - fase 1 e 5(parte do php, backend e frontend), página final(parte do php, backend e frontend) e os créditos. <br>
-Ana Luisa - css de todas as páginas. <br>
-Amanda - css de todas as páginas. <br>
-Sophia - menu (parte do html e backend), fase 4 (parte do php, backend e frontend)  e refez a fase 2 inteira (parte do php, backend e frontend). <br>
-Leticia - a página do tutorial ( parte do php, backend e frontend) e a fase 3 (parte do php, backend e frontend). <br>
+<p> O QUE OS INTEGRANTES FIZERAM:  <br>
+João - fase 1 e 5(parte do php, backend e frontend), página final(parte do php, backend e frontend) e os créditos. <br> <br>
+Ana Luisa - css de todas as páginas. <br> <br>
+Amanda - css de todas as páginas. <br> <br>
+Sophia - menu (parte do html e backend), fase 4 (parte do php, backend e frontend)  e refez a fase 2 inteira (parte do php, backend e frontend). <br> <br>
+Leticia - a página do tutorial ( parte do php, backend e frontend) e a fase 3 (parte do php, backend e frontend). <br> <br>
 Yasmym - fase 2.
 </p>
