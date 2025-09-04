@@ -15,6 +15,8 @@ if (!isset($_SESSION['pontos'])) {
 ?>
 
 
+
+
 <body>
 
     <div class="container">

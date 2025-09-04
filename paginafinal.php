@@ -15,7 +15,26 @@ session_start();
 echo "<h1 class='pontuacao'>Pontuação final: " . $_SESSION['pontos'] . "/50 </h1>";
 
 
-?></div><br><br>
+
+     if (!isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] !== true){
+    header("Location: desafio1.php");
+    }
+    if (!isset($_SESSION['fase2_concluida']) || $_SESSION['fase2_concluida'] !== true){
+      header('Location: desafio2.php');
+    }
+    if (!isset($_SESSION['fase3_concluida']) || $_SESSION['fase3_concluida'] !== true){
+      header('Location: desafio3.php');
+    }
+    if (!isset($_SESSION['fase4_concluida']) || $_SESSION['fase4_concluida'] !== true){
+      header('Location: desafio4.php');
+    }
+    if (!isset($_SESSION['fase5_concluida']) || $_SESSION['fase5_concluida'] !== true){
+      header('Location: desafio5.php');
+    }
+    ?>
+
+
+</div><br><br>
 
 <div class="texto">
 <p>A aventura chegou ao fim, mas a nossa gratidão é só o começo.
@@ -43,6 +62,11 @@ Do fundo do coração,
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $_SESSION['pontos'] = 0;
+    $_SESSION['fase1_concluida'] = false;
+    $_SESSION['fase2_concluida'] = false;
+    $_SESSION['fase3_concluida'] = false;
+    $_SESSION['fase4_concluida'] = false;
+    $_SESSION['fase5_concluida'] = false;
 
     header("Location: index.html");
     exit();

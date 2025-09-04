@@ -22,7 +22,9 @@
   }, { once: true });
 </script>
 
+
     <div class="credits">
+      
     <h1 class="titulocredito">Créditos do Jogo</h1>
 
     <p class="section-title"><strong>Desenvolvimento Geral</strong></p>
@@ -52,7 +54,31 @@
         <p>Aos professores Jhonatan e Rafael por todo o apoio e orientação no projeto.</p>
         <p>A todos que testaram o jogo e deram feedback valioso.</p>
         <p>À comunidade de desenvolvimento por fornecer as ferramentas e o conhecimento necessário.</p>
+
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <form method="POST">
+   <input type='submit' value='Jogar novamente'>
+</form>
+
+    
+    <?php
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $_SESSION['pontos'] = 0;
+    $_SESSION['fase1_concluida'] = false;
+    $_SESSION['fase2_concluida'] = false;
+    $_SESSION['fase3_concluida'] = false;
+    $_SESSION['fase4_concluida'] = false;
+    $_SESSION['fase5_concluida'] = false;
+
+    header("Location: index.html");
+    exit();
+
+    
+}
+?>
 </div>
+
 </body>
 </html>

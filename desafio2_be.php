@@ -3,6 +3,7 @@ class Desafio2_be{
     public function Resposta2($resposta){
         if($resposta == "americano"){
             $_SESSION['pontos']+= 5;
+            $_SESSION['fase2_concluida'] = true;
             header("Location: desafio3.php");
         }
         if($resposta == "recepcao"){
