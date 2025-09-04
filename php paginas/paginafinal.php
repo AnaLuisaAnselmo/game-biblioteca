@@ -49,7 +49,7 @@ Do fundo do coração,
 <div class="glitch">GLITCH</div></p>
 
 <p>Obrigado por jogar!</p></div>
-<a href="creditos.html">Créditos</a>
+<a href="creditos.php">Créditos</a>
 
 
 <form method="POST">
