@@ -5,6 +5,7 @@ class desafio4_be {
     public function Resposta4($resposta) {
         if ($resposta == "Livros") {
             $_SESSION['pontos']+= 5;
+            $_SESSION['fase4_concluida'] = true;
             header("Location: desafio5.php");
         } 
         if ($resposta == "Direita") {

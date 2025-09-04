@@ -9,6 +9,12 @@
 </head>
 <?php
 session_start();
+
+
+// Se a fase 1 não foi concluída, volta para a fase 1
+if (!isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] !== true) {
+    header("Location: desafio1.php");
+}
 ?>
 <body>
 

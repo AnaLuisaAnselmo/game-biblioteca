@@ -8,7 +8,15 @@
 </head>
 <?php
 session_start();
-?> 
+if (!isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] !== true){
+    header("Location: desafio1.php");
+}
+    if (!isset($_SESSION['fase2_concluida']) || $_SESSION['fase2_concluida'] !== true){
+      header('Location: desafio2.php');
+    }
+
+?>
+
 <body>
     <div class="container">
     <h1>FASE 3</h1>

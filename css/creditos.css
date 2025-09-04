@@ -39,6 +39,7 @@
     p {
       font-size: 1.2em;
       margin: 10px 0;
+
     }
    
 
@@ -47,7 +48,7 @@
         bottom: -110%;
       }
       to{
-        bottom: 100%;
+        bottom: 50%;
       }
     }
     
@@ -95,6 +96,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 /* --- Responsividade --- */
 
@@ -162,3 +164,5 @@
     gap: 8px;
   }
 }
+
+
