@@ -10,7 +10,9 @@
 <audio id="bg-music" loop muted>
   <source src="../musica/goddess.mp3" type="audio/mpeg">
 </audio>
-
+<?php 
+session_start();
+?>
 <script>
   const music = document.getElementById("bg-music");
   music.play(); // começa mudo
