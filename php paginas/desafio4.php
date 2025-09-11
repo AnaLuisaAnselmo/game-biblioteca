@@ -32,7 +32,7 @@ if (!isset($_SESSION['fase1_concluida']) || $_SESSION['fase1_concluida'] !== tru
     <h1>FASE 4</h1>
 
     <div class="caixa-pergunta">
-        <p class="pergunta">Muito bem, agora que o caminho está iluminado, a biblioteca ganha forma. Em meio aos volumes empoeirados, você sente um calor familiar, como um abraço. Você se lembra do avô contando que, para ele, o lar era onde o coração se aquecia. De repente, a luz da vela parece tremer levemente. Em qual seção você irá procurar o livro?</p><br>
+        <p class="pergunta">Muito bem, agora que o caminho está iluminado, a biblioteca ganha forma. Em meio aos volumes empoeirados, você sente um calor familiar, como um abraço. Você se lembra do avô contando que, para ele, o lar era onde o coração se aquecia. De repente, a luz da vela parece tremer levemente. Em qual direção você irá procurar o livro?</p><br>
 
     <form method="POST">
         <label class="opcao">
